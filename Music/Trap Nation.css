@@ -1,0 +1,78 @@
+*{
+  margin:0px;
+  padding:0px;
+  }
+h1{
+  font:bold 30px Georgia;
+}
+h2{
+  color: white;
+  font:bold 18px Georgia;
+}
+p{
+  color: white;
+  font:bold 12px Georgia;
+}
+header,section,footer,aside,nav,hgroup{
+  display:block;
+}
+body{
+  background-image: url(Silver.jpg);
+width: 100%;
+display:-webkit-box;
+-webkit-box-pack: center;
+
+}
+#big_wrapper{
+  max-width: 1500px;
+  margin: 20 px 0px;
+  display:-wedkit-box;
+  -webkit-box-orien:vertical;
+  -webkit-box-flex:1;
+
+}
+#top_header{
+  text-align: center;
+  background:-webkit-linear-gradient(top,black,#333333);
+  border: 3px black;
+  padding: 20px;
+  color: white;
+  background:-webkit-linear-gradient(top,black,#333333);
+}
+#top_bar {
+  text-align: center;
+  background:#4d0000;
+  border:1px white;
+  color:white;
+  background:-webkit-linear-gradient(top,#333333,black);
+}
+#top_bar li {
+  display: inline-block;
+  padding:10px;
+  font: bold italic 14px Georgia;
+}
+  .buttons {
+        background:-webkit-linear-gradient(top,#333333,black);
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 24px;
+}
+
+#new_div{
+  display:-webkit-box;
+  -webkit-box-orient;horizontal;
+}
+#main_section {
+  text-align: center;
+  border: 1px solid black;
+  -webkit-box-flex:1;
+  padding: 20px;
+}
+#footer {
+  clear: both;
+  text-align: center;
+  color: #cccccc;
+}
